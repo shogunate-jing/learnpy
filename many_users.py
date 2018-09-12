@@ -19,5 +19,5 @@ for username,user_info in users.items():
     print("\t Full name: " + fullname.title())
     print("\t Location: " + location.title())
 
-message = print("tell me someting")
+message = input("tell me someting: ")
 print(message)
