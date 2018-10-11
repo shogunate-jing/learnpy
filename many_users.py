@@ -18,6 +18,3 @@ for username,user_info in users.items():
     location = user_info['location']
     print("\t Full name: " + fullname.title())
     print("\t Location: " + location.title())
-
-message = input("tell me someting: ")
-print(message)
